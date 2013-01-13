@@ -1,0 +1,476 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F0CA020B16A34176007A85D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CA020A16A34176007A85D7 /* UIKit.framework */; };
+		F0CA020D16A34176007A85D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CA020C16A34176007A85D7 /* Foundation.framework */; };
+		F0CA020F16A34176007A85D7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CA020E16A34176007A85D7 /* CoreGraphics.framework */; };
+		F0CA021516A34176007A85D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0CA021316A34176007A85D7 /* InfoPlist.strings */; };
+		F0CA021716A34176007A85D7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CA021616A34176007A85D7 /* main.m */; };
+		F0CA021B16A34176007A85D7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CA021A16A34176007A85D7 /* AppDelegate.m */; };
+		F0CA021D16A34176007A85D7 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CA021C16A34176007A85D7 /* Default.png */; };
+		F0CA021F16A34176007A85D7 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CA021E16A34176007A85D7 /* Default@2x.png */; };
+		F0CA022116A34176007A85D7 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F0CA022016A34176007A85D7 /* Default-568h@2x.png */; };
+		F0CA022416A34176007A85D7 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CA022216A34176007A85D7 /* MainStoryboard_iPhone.storyboard */; };
+		F0CA022716A34176007A85D7 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0CA022516A34176007A85D7 /* MainStoryboard_iPad.storyboard */; };
+		F0CA022A16A34176007A85D7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CA022916A34176007A85D7 /* ViewController.m */; };
+		F0CA023216A34176007A85D7 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CA023116A34176007A85D7 /* SenTestingKit.framework */; };
+		F0CA023316A34176007A85D7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CA020A16A34176007A85D7 /* UIKit.framework */; };
+		F0CA023416A34176007A85D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CA020C16A34176007A85D7 /* Foundation.framework */; };
+		F0CA023C16A34176007A85D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0CA023A16A34176007A85D7 /* InfoPlist.strings */; };
+		F0CA023F16A34176007A85D7 /* iThotTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CA023E16A34176007A85D7 /* iThotTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F0CA023516A34176007A85D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F0CA01FD16A34176007A85D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0CA020516A34176007A85D7;
+			remoteInfo = iThot;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F0CA020616A34176007A85D7 /* iThot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iThot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CA020A16A34176007A85D7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		F0CA020C16A34176007A85D7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		F0CA020E16A34176007A85D7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		F0CA021216A34176007A85D7 /* iThot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iThot-Info.plist"; sourceTree = "<group>"; };
+		F0CA021416A34176007A85D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0CA021616A34176007A85D7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F0CA021816A34176007A85D7 /* iThot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iThot-Prefix.pch"; sourceTree = "<group>"; };
+		F0CA021916A34176007A85D7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F0CA021A16A34176007A85D7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F0CA021C16A34176007A85D7 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		F0CA021E16A34176007A85D7 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		F0CA022016A34176007A85D7 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		F0CA022316A34176007A85D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		F0CA022616A34176007A85D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		F0CA022816A34176007A85D7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F0CA022916A34176007A85D7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F0CA023016A34176007A85D7 /* iThotTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iThotTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F0CA023116A34176007A85D7 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		F0CA023916A34176007A85D7 /* iThotTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iThotTests-Info.plist"; sourceTree = "<group>"; };
+		F0CA023B16A34176007A85D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		F0CA023D16A34176007A85D7 /* iThotTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iThotTests.h; sourceTree = "<group>"; };
+		F0CA023E16A34176007A85D7 /* iThotTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iThotTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F0CA020316A34176007A85D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CA020B16A34176007A85D7 /* UIKit.framework in Frameworks */,
+				F0CA020D16A34176007A85D7 /* Foundation.framework in Frameworks */,
+				F0CA020F16A34176007A85D7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CA022C16A34176007A85D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CA023216A34176007A85D7 /* SenTestingKit.framework in Frameworks */,
+				F0CA023316A34176007A85D7 /* UIKit.framework in Frameworks */,
+				F0CA023416A34176007A85D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F0CA01FB16A34176007A85D7 = {
+			isa = PBXGroup;
+			children = (
+				F0CA021016A34176007A85D7 /* iThot */,
+				F0CA023716A34176007A85D7 /* iThotTests */,
+				F0CA020916A34176007A85D7 /* Frameworks */,
+				F0CA020716A34176007A85D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F0CA020716A34176007A85D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F0CA020616A34176007A85D7 /* iThot.app */,
+				F0CA023016A34176007A85D7 /* iThotTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F0CA020916A34176007A85D7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0CA020A16A34176007A85D7 /* UIKit.framework */,
+				F0CA020C16A34176007A85D7 /* Foundation.framework */,
+				F0CA020E16A34176007A85D7 /* CoreGraphics.framework */,
+				F0CA023116A34176007A85D7 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F0CA021016A34176007A85D7 /* iThot */ = {
+			isa = PBXGroup;
+			children = (
+				F0CA021916A34176007A85D7 /* AppDelegate.h */,
+				F0CA021A16A34176007A85D7 /* AppDelegate.m */,
+				F0CA022216A34176007A85D7 /* MainStoryboard_iPhone.storyboard */,
+				F0CA022516A34176007A85D7 /* MainStoryboard_iPad.storyboard */,
+				F0CA022816A34176007A85D7 /* ViewController.h */,
+				F0CA022916A34176007A85D7 /* ViewController.m */,
+				F0CA021116A34176007A85D7 /* Supporting Files */,
+			);
+			path = iThot;
+			sourceTree = "<group>";
+		};
+		F0CA021116A34176007A85D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0CA021216A34176007A85D7 /* iThot-Info.plist */,
+				F0CA021316A34176007A85D7 /* InfoPlist.strings */,
+				F0CA021616A34176007A85D7 /* main.m */,
+				F0CA021816A34176007A85D7 /* iThot-Prefix.pch */,
+				F0CA021C16A34176007A85D7 /* Default.png */,
+				F0CA021E16A34176007A85D7 /* Default@2x.png */,
+				F0CA022016A34176007A85D7 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F0CA023716A34176007A85D7 /* iThotTests */ = {
+			isa = PBXGroup;
+			children = (
+				F0CA023D16A34176007A85D7 /* iThotTests.h */,
+				F0CA023E16A34176007A85D7 /* iThotTests.m */,
+				F0CA023816A34176007A85D7 /* Supporting Files */,
+			);
+			path = iThotTests;
+			sourceTree = "<group>";
+		};
+		F0CA023816A34176007A85D7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F0CA023916A34176007A85D7 /* iThotTests-Info.plist */,
+				F0CA023A16A34176007A85D7 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F0CA020516A34176007A85D7 /* iThot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CA024216A34176007A85D7 /* Build configuration list for PBXNativeTarget "iThot" */;
+			buildPhases = (
+				F0CA020216A34176007A85D7 /* Sources */,
+				F0CA020316A34176007A85D7 /* Frameworks */,
+				F0CA020416A34176007A85D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iThot;
+			productName = iThot;
+			productReference = F0CA020616A34176007A85D7 /* iThot.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F0CA022F16A34176007A85D7 /* iThotTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F0CA024516A34176007A85D7 /* Build configuration list for PBXNativeTarget "iThotTests" */;
+			buildPhases = (
+				F0CA022B16A34176007A85D7 /* Sources */,
+				F0CA022C16A34176007A85D7 /* Frameworks */,
+				F0CA022D16A34176007A85D7 /* Resources */,
+				F0CA022E16A34176007A85D7 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F0CA023616A34176007A85D7 /* PBXTargetDependency */,
+			);
+			name = iThotTests;
+			productName = iThotTests;
+			productReference = F0CA023016A34176007A85D7 /* iThotTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F0CA01FD16A34176007A85D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Adam Bushashia";
+			};
+			buildConfigurationList = F0CA020016A34176007A85D7 /* Build configuration list for PBXProject "iThot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F0CA01FB16A34176007A85D7;
+			productRefGroup = F0CA020716A34176007A85D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F0CA020516A34176007A85D7 /* iThot */,
+				F0CA022F16A34176007A85D7 /* iThotTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F0CA020416A34176007A85D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CA021516A34176007A85D7 /* InfoPlist.strings in Resources */,
+				F0CA021D16A34176007A85D7 /* Default.png in Resources */,
+				F0CA021F16A34176007A85D7 /* Default@2x.png in Resources */,
+				F0CA022116A34176007A85D7 /* Default-568h@2x.png in Resources */,
+				F0CA022416A34176007A85D7 /* MainStoryboard_iPhone.storyboard in Resources */,
+				F0CA022716A34176007A85D7 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CA022D16A34176007A85D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CA023C16A34176007A85D7 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F0CA022E16A34176007A85D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F0CA020216A34176007A85D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CA021716A34176007A85D7 /* main.m in Sources */,
+				F0CA021B16A34176007A85D7 /* AppDelegate.m in Sources */,
+				F0CA022A16A34176007A85D7 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0CA022B16A34176007A85D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0CA023F16A34176007A85D7 /* iThotTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F0CA023616A34176007A85D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F0CA020516A34176007A85D7 /* iThot */;
+			targetProxy = F0CA023516A34176007A85D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F0CA021316A34176007A85D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CA021416A34176007A85D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		F0CA022216A34176007A85D7 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CA022316A34176007A85D7 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		F0CA022516A34176007A85D7 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CA022616A34176007A85D7 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		F0CA023A16A34176007A85D7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F0CA023B16A34176007A85D7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F0CA024016A34176007A85D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F0CA024116A34176007A85D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F0CA024316A34176007A85D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iThot/iThot-Prefix.pch";
+				INFOPLIST_FILE = "iThot/iThot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		F0CA024416A34176007A85D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iThot/iThot-Prefix.pch";
+				INFOPLIST_FILE = "iThot/iThot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		F0CA024616A34176007A85D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iThot.app/iThot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iThot/iThot-Prefix.pch";
+				INFOPLIST_FILE = "iThotTests/iThotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		F0CA024716A34176007A85D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iThot.app/iThot";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "iThot/iThot-Prefix.pch";
+				INFOPLIST_FILE = "iThotTests/iThotTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F0CA020016A34176007A85D7 /* Build configuration list for PBXProject "iThot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CA024016A34176007A85D7 /* Debug */,
+				F0CA024116A34176007A85D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F0CA024216A34176007A85D7 /* Build configuration list for PBXNativeTarget "iThot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CA024316A34176007A85D7 /* Debug */,
+				F0CA024416A34176007A85D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F0CA024516A34176007A85D7 /* Build configuration list for PBXNativeTarget "iThotTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F0CA024616A34176007A85D7 /* Debug */,
+				F0CA024716A34176007A85D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F0CA01FD16A34176007A85D7 /* Project object */;
+}
