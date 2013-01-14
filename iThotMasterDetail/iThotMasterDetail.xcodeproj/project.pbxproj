@@ -25,6 +25,7 @@
 		F0CA028416A34B8A007A85D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0CA025916A34B8A007A85D7 /* Foundation.framework */; };
 		F0CA028C16A34B8A007A85D7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = F0CA028A16A34B8A007A85D7 /* InfoPlist.strings */; };
 		F0CA028F16A34B8A007A85D7 /* iThotMasterDetailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CA028E16A34B8A007A85D7 /* iThotMasterDetailTests.m */; };
+		F0CA029A16A42565007A85D7 /* Thot.m in Sources */ = {isa = PBXBuildFile; fileRef = F0CA029916A42565007A85D7 /* Thot.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,8 @@
 		F0CA028B16A34B8A007A85D7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		F0CA028D16A34B8A007A85D7 /* iThotMasterDetailTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iThotMasterDetailTests.h; sourceTree = "<group>"; };
 		F0CA028E16A34B8A007A85D7 /* iThotMasterDetailTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iThotMasterDetailTests.m; sourceTree = "<group>"; };
+		F0CA029816A42565007A85D7 /* Thot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Thot.h; sourceTree = "<group>"; };
+		F0CA029916A42565007A85D7 /* Thot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Thot.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +134,8 @@
 				F0CA027816A34B8A007A85D7 /* DetailViewController.h */,
 				F0CA027916A34B8A007A85D7 /* DetailViewController.m */,
 				F0CA025E16A34B8A007A85D7 /* Supporting Files */,
+				F0CA029816A42565007A85D7 /* Thot.h */,
+				F0CA029916A42565007A85D7 /* Thot.m */,
 			);
 			path = iThotMasterDetail;
 			sourceTree = "<group>";
@@ -283,6 +288,7 @@
 				F0CA026816A34B8A007A85D7 /* AppDelegate.m in Sources */,
 				F0CA027716A34B8A007A85D7 /* MasterViewController.m in Sources */,
 				F0CA027A16A34B8A007A85D7 /* DetailViewController.m in Sources */,
+				F0CA029A16A42565007A85D7 /* Thot.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
