@@ -7,6 +7,7 @@
 //
 
 #import "DetailViewController.h"
+#import "Thot.h"
 
 @interface DetailViewController ()
 @property (strong, nonatomic) UIPopoverController *masterPopoverController;
@@ -36,7 +37,8 @@
     // Update the user interface for the detail item.
 
     if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+        self.detailDescriptionLabel.text = [self.detailItem text];
+        self.detailText.text = [self.detailItem text];
     }
 }
 
@@ -67,6 +69,12 @@
     // Called when the view is shown again in the split view, invalidating the button and popover controller.
     [self.navigationItem setLeftBarButtonItem:nil animated:YES];
     self.masterPopoverController = nil;
+}
+
+- (void) viewWillDisappear:(BOOL)animated {
+    if (self.detailItem) {
+        self.detailItem.text = self.detailText.text;
+    }
 }
 
 @end

@@ -9,9 +9,11 @@
 #import "MasterViewController.h"
 
 #import "DetailViewController.h"
+#import "Thot.h"
 
 @interface MasterViewController () {
     NSMutableArray *_objects;
+    int nextThotId;
 }
 @end
 
@@ -47,10 +49,14 @@
 {
     if (!_objects) {
         _objects = [[NSMutableArray alloc] init];
+        nextThotId = 1;
     }
-    [_objects insertObject:[NSDate date] atIndex:0];
+    Thot *thot = [Thot new];
+    thot.itemId = nextThotId;
+    [_objects insertObject:thot atIndex:0];
     NSIndexPath *indexPath = [NSIndexPath indexPathForRow:0 inSection:0];
     [self.tableView insertRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+    nextThotId++;
 }
 
 #pragma mark - Table View
@@ -69,8 +75,8 @@
 {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-    NSDate *object = _objects[indexPath.row];
-    cell.textLabel.text = [object description];
+    Thot *thot = _objects[indexPath.row];
+    cell.textLabel.text = [NSString stringWithFormat:@"%d", [thot itemId]];
     return cell;
 }
 
@@ -109,8 +115,8 @@
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad) {
-        NSDate *object = _objects[indexPath.row];
-        self.detailViewController.detailItem = object;
+        Thot *thot = _objects[indexPath.row];
+        self.detailViewController.detailItem = thot;
     }
 }
 
@@ -118,8 +124,8 @@
 {
     if ([[segue identifier] isEqualToString:@"showDetail"]) {
         NSIndexPath *indexPath = [self.tableView indexPathForSelectedRow];
-        NSDate *object = _objects[indexPath.row];
-        [[segue destinationViewController] setDetailItem:object];
+        Thot *thot = _objects[indexPath.row];
+        [[segue destinationViewController] setDetailItem:thot];
     }
 }
 
